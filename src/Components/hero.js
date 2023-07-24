@@ -1,6 +1,7 @@
 import "../Style/hero.css"
 import video from '../Images/VideoLarger.mp4';
 import React, { useEffect } from 'react';
+import $ from 'jquery';
 
 function Hero() {
 
