@@ -12,7 +12,7 @@
     left: -5vw;
     width: 110vw;
     height: 108vh;
-    object-fit: fill;
+    object-fit: cover;
     opacity: 0.8;
 }
 
@@ -34,8 +34,9 @@
     align-items: center;
     color: WHITE;
     font-size: 4VW;
-    font-weight: 300;
-    TOP: -2.5VW;
+    font-weight: 400;
+    top: -1.5VW;
+    letter-spacing: 0.323vw;
     display: flex;
     flex-direction: column;
 

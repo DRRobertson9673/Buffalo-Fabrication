@@ -1,7 +1,26 @@
 import "../Style/hero.css"
 import video from '../Images/VideoLarger.mp4';
+import React, { useEffect } from 'react';
+import $ from 'jquery';
 
 function Hero() {
+
+    useEffect(() => {
+        window.addEventListener("scroll", onScroll);
+        function onScroll() {
+            const scrollTop = $(window).scrollTop();
+            const heroContentOffset = document.getElementById('callToAction').offsetTop;
+            $('#callToAction').css({
+                opacity: ((heroContentOffset * 10) / scrollTop) / heroContentOffset
+            })
+            if (scrollTop < 1) {
+                $('#callToAction').css({
+                    opacity: 1
+                })
+            }
+        }
+    }, []);
+
     return (
         <div className="video-container">
             <div id="overlay"></div>
