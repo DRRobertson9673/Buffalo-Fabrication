@@ -1,9 +1,14 @@
-import './App.css';
+import "./Style/App.css"
+import Header from './Components/header';
+import Hero from './Components/hero';
+import Intro from './Components/Intro';
 
 function App() {
   return (
     <div>
-      hello world
+      <Header />
+      <Hero />
+      <Intro />
     </div>
   );
 }
