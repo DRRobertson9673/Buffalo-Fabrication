@@ -2,8 +2,7 @@
     z-index: 15;
     height: 30vh;
     width: 90vw;
-    margin-top: 3vw;
-    padding-left: 7vw;
+    margin-top: 5vw;
 }
 
 h1 {
@@ -11,10 +10,143 @@ h1 {
     font-size: 1.75vw;
     font-weight: 800;
     width: 60%;
+    padding-left: 7vw;
 }
 
 #intro p {
     margin-top: 1vw;
     font-weight: 300;
-    width: 60%;
+    width: 70%;
+    padding-left: 7vw;
+}
+
+#services {
+    display: grid;
+    width: 86vw;
+    height: 30vw;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 2vw;
+    padding-left: 7vw;
+    margin-top: 4vw;
+    padding-bottom: 4vw;
+    transition: all 2s;
+}
+
+.serviceCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: var(--backgroundGrey);
+    border-radius: .5vw;
+    overflow: hidden;
+}
+
+#card1Title {
+    position: relative;
+    top: -2vw;
+    transition: all .75s;
+    margin-left: 1.5vw;
+    height: 2vw;
+    margin-bottom: 1vw;
+    color: white;
+}
+
+#card1Title p {
+    color: white;
+    margin-top: 0vw;
+    font-weight: 300;
+    width: 100%;
+    padding-left: 0vw;
+    text-align: left;
+    transition: opacity 0.75s;
+    opacity: 0;
+}
+
+#card2Title {
+    position: relative;
+    top: -2vw;
+    transition: all .75s;
+    margin-left: 1.5vw;
+    height: 2vw;
+    margin-bottom: 1vw;
+    color: white;
+}
+
+#card2Title p {
+    color: white;
+    margin-top: 0vw;
+    font-weight: 300;
+    width: 100%;
+    padding-left: 0vw;
+    text-align: left;
+    transition: opacity 0.75s;
+    opacity: 0;
+}
+
+#card3Title {
+    position: relative;
+    top: -2vw;
+    transition: all .75s;
+    margin-left: 1.5vw;
+    height: 2vw;
+    margin-bottom: 1vw;
+    color: white;
+}
+
+#card3Title p {
+    color: white;
+    margin-top: 0vw;
+    font-weight: 300;
+    width: 100%;
+    padding-left: 0vw;
+    text-align: left;
+    transition: opacity 0.75s;
+    opacity: 0;
+}
+
+#card4Title {
+    position: relative;
+    top: -2vw;
+    transition: all .75s;
+    margin-left: 1.5vw;
+    height: 2vw;
+    margin-bottom: 1vw;
+    color: white;
+}
+
+#card4Title p {
+    color: white;
+    margin-top: 0vw;
+    font-weight: 300;
+    width: 100%;
+    padding-left: 0vw;
+    text-align: left;
+    transition: opacity 0.75s;
+    opacity: 0;
+}
+
+H2 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 800;
+    font-size: 2.25vw;
+}
+
+.serviceButton {
+    height: 3vw;
+    width: 16vw;
+    border: 1px solid white;
+    font-size: 1.8vw;
+    line-height: 2.5VW;
+    text-align: center;
+    margin-top: 2vw;
+    cursor: pointer;
+    font-weight: 200;
+    color: white;
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+.serviceButton:hover {
+    background-color: white;
+    color: var(--buffaloBlue);
 }

@@ -1,7 +1,7 @@
 import "../Style/hero.css"
 import video from '../Images/VideoLarger.mp4';
 import React, { useEffect } from 'react';
-import $ from 'jquery';
+import $, { nodeName } from 'jquery';
 
 function Hero() {
 
@@ -15,7 +15,14 @@ function Hero() {
             })
             if (scrollTop < 1) {
                 $('#callToAction').css({
-                    opacity: 1
+                    opacity: 1,
+                    display: `flex`
+                })
+            }
+
+            if (   (((heroContentOffset * 10) / scrollTop) / heroContentOffset) < 0.1   ) {
+                $('#callToAction').css({
+                    display: `none`
                 })
             }
         }
