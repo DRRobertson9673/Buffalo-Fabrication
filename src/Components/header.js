@@ -1,7 +1,6 @@
 import "../Style/header.css"
 import $ from 'jquery';
 
-let scrollTop = 0;
 window.addEventListener("scroll", function () {
     let st = window.pageYOffset || document.documentElement.scrollTop;
     if (st > 0) {
@@ -11,12 +10,7 @@ window.addEventListener("scroll", function () {
         // scroll up
         $('nav').removeClass('navMoved');
     }
-
-
-
-
 }, false);
-
 
 function header() {
     return (
