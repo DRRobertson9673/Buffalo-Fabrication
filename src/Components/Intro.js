@@ -99,58 +99,131 @@ function Intro() {
         })
     };
 
-
     $('#callToAction').css({
         opacity: 1,
         display: `flex`
     })
 
+    function handleMetalFabClick() {
+        $('#intro').addClass("hidden");
+        $('#metalFab').removeClass("hidden");
+    }
 
+    function handleDesignFabClick() {
+        $('#intro').addClass("hidden");
+        $('#design').removeClass("hidden");
+    }
+
+    function handleCNCClick() {
+        $('#intro').addClass("hidden");
+        $('#CNC').removeClass("hidden");
+    }
+
+    function handleProductionClick() {
+        $('#intro').addClass("hidden");
+        $('#production').removeClass("hidden");
+    }
+
+    function handleBackClick() {
+        $('#intro').removeClass("hidden");
+        $('#metalFab').addClass("hidden");
+        $('#design').addClass("hidden");
+        $('#CNC').addClass("hidden");
+        $('#production').addClass("hidden");
+    }
 
     return (
-        <div id="intro">
+        <div>
+            <div id="intro">
 
-            <div id="introText">
-            <h1>PRECISION FORMED SHEET METAL FABRICATIONS AND MACHINED COMPONENTS, UK AND WORLDWIDE</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div id="introText">
+                    <h1>PRECISION FORMED SHEET METAL FABRICATIONS AND MACHINED COMPONENTS, UK AND WORLDWIDE</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div id="services">
+                    <div id="serviceCard1" className="serviceCard" onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1}>
+                        <div id="card1Title">
+                            <h2>METAL FABRICATION</h2>
+                            <p>Bunch of text</p>
+                            <div className="serviceButton" onClick={handleMetalFabClick}>More</div>
+                        </div>
+                    </div>
+                    <div id="serviceCard2" className="serviceCard" onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2}>
+                        <div id="card2Title">
+                            <h2>DESIGN</h2>
+                            <p>Bunch of text</p>
+                            <div className="serviceButton" onClick={handleDesignFabClick}>More</div>
+                        </div>
+                    </div>
+                    <div id="serviceCard3" className="serviceCard" onMouseEnter={handleMouseEnter3} onMouseLeave={handleMouseLeave3}>
+                        <div id="card3Title">
+                            <h2>CNC</h2>
+                            <p>Bunch of text</p>
+                            <div className="serviceButton" onClick={handleCNCClick}>More</div>
+                        </div>
+                    </div>
+                    <div id="serviceCard4" className="serviceCard" onMouseEnter={handleMouseEnter4} onMouseLeave={handleMouseLeave4}>
+                        <div id="card4Title">
+                            <h2>PRODUCTION</h2>
+                            <p>Bunch of text</p>
+                            <div className="serviceButton" onClick={handleProductionClick}>More</div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </div>
 
-            <div id="services">
-                <div id="serviceCard1" className="serviceCard" onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1}>
-                    <div id="card1Title">
-                        <h2>METAL FABRICATION</h2>
-                        <p>Bunch of text</p>
-                        <div className="serviceButton">More</div>
-                    </div>
+            <div id="metalFab" className="hidden">
+                <div id="introText">
+                    <h1>METAL FABRICATION</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 </div>
-
-
-                <div id="serviceCard2" className="serviceCard" onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2}>
-                    <div id="card2Title">
-                        <h2>DESIGN</h2>
-                        <p>Bunch of text</p>
-                        <div className="serviceButton">More</div>
-                    </div>
-                </div>
-
-
-                <div id="serviceCard3" className="serviceCard" onMouseEnter={handleMouseEnter3} onMouseLeave={handleMouseLeave3}>
-                    <div id="card3Title">
-                        <h2>CNC</h2>
-                        <p>Bunch of text</p>
-                        <div className="serviceButton">More</div>
-                    </div>
-                </div>
-
-
-                <div id="serviceCard4" className="serviceCard" onMouseEnter={handleMouseEnter4} onMouseLeave={handleMouseLeave4}>
-                    <div id="card4Title">
-                        <h2>PRODUCTION</h2>
-                        <p>Bunch of text</p>
-                        <div className="serviceButton">More</div>
-                    </div>
-                </div>
+                <button className="backButton" onClick={handleBackClick}>BACK</button>
             </div>
+
+            <div id="design" className="hidden">
+                <div id="introText">
+                    <h1>DESIGN</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <button className="backButton" onClick={handleBackClick}>BACK</button>
+            </div>
+
+            <div id="CNC" className="hidden">
+                <div id="introText">
+                    <h1>CNC</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <button className="backButton" onClick={handleBackClick}>BACK</button>
+            </div>
+
+            <div id="production" className="hidden">
+                <div id="introText">
+                    <h1>PRODUCTION</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <button className="backButton" onClick={handleBackClick}>BACK</button>
+            </div>
+
         </div>
     );
 }

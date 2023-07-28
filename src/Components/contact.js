@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import "../Style/contact.css"
 
 const FORM_ENDPOINT = "https://public.herotofu.com/v1/6e969c80-2d4d-11ee-9314-312e17da8d1e"; // TODO - fill on the later step
