@@ -1,38 +1,38 @@
 #intro {
     z-index: 15;
-    height: 30vh;
-    width: 90vw;
-    margin-top: 5vw;
 }
 
-h1 {
+#intro h1 {
+    padding-top: 6vh;
     color: var(--buffaloBlue);
-    font-size: 1.75vw;
+    font-size: 2em;
     font-weight: 800;
     width: 60%;
     padding-left: 7vw;
 }
 
 #intro p {
-    margin-top: 1vw;
+    margin-top: 1vh;
     font-weight: 300;
     width: 70%;
     padding-left: 7vw;
+    font-size: 1em;
 }
 
 #services {
     display: grid;
     width: 86vw;
-    height: 30vw;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 2vw;
     padding-left: 7vw;
-    margin-top: 4vw;
-    padding-bottom: 4vw;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
     transition: all 2s;
 }
 
 .serviceCard {
+    height: 50vh;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -43,11 +43,13 @@ h1 {
 
 #card1Title {
     position: relative;
-    top: -2vw;
+    top: 0vw;
     transition: all .75s;
-    margin-left: 1.5vw;
+    padding-left: 1.5vw;
+    padding-top: 4vw;
     height: 2vw;
-    margin-bottom: 1vw;
+    padding-bottom: 3vw;
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.75) 50%);
     color: white;
 }
 
@@ -64,11 +66,13 @@ h1 {
 
 #card2Title {
     position: relative;
-    top: -2vw;
+    top: 0vw;
     transition: all .75s;
-    margin-left: 1.5vw;
+    padding-left: 1.5vw;
+    padding-top: 4vw;
     height: 2vw;
-    margin-bottom: 1vw;
+    padding-bottom: 3vw;
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.75) 50%);
     color: white;
 }
 
@@ -85,11 +89,13 @@ h1 {
 
 #card3Title {
     position: relative;
-    top: -2vw;
+    top: 0vw;
     transition: all .75s;
-    margin-left: 1.5vw;
+    padding-left: 1.5vw;
+    padding-top: 4vw;
     height: 2vw;
-    margin-bottom: 1vw;
+    padding-bottom: 3vw;
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.75) 50%);
     color: white;
 }
 
@@ -106,11 +112,13 @@ h1 {
 
 #card4Title {
     position: relative;
-    top: -2vw;
+    top: 0vw;
     transition: all .75s;
-    margin-left: 1.5vw;
+    padding-left: 1.5vw;
+    padding-top: 4vw;
     height: 2vw;
-    margin-bottom: 1vw;
+    padding-bottom: 3vw;
+    background-image: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.75) 50%);
     color: white;
 }
 
@@ -129,6 +137,7 @@ H2 {
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 800;
     font-size: 2.25vw;
+
 }
 
 .serviceButton {
@@ -142,11 +151,39 @@ H2 {
     cursor: pointer;
     font-weight: 200;
     color: white;
-    transition: opacity 0.5s;
+    transition: all 0.5s;
     opacity: 0;
 }
 
 .serviceButton:hover {
     background-color: white;
     color: var(--buffaloBlue);
+}
+
+#serviceCard1 {
+    background-image: url('../Images/metalFab.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#serviceCard2 {
+    background-image: url('../Images/Design.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#serviceCard3 {
+    background-image: url('../Images/CNC.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#serviceCard4 {
+    background-image: url('../Images/production.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

@@ -1,0 +1,107 @@
+#testimonialSection {
+    height: calc(100vh - 8vw);
+    background-color: blue;
+    display: flex;
+    background-image: url('../Images/TestimonialBackground.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#testimonialText {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#testimonialLogo {
+    margin-right: 4vw;
+    margin-left: 4vw;
+    height: 80%;
+    width: 80%;
+    background-image: url('../Images/TestimonialImage.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.testimonialsTopBottom {
+    position: relative;
+    top: 6vh;
+    height: 20%;
+    width: 100%;
+}
+
+.quoteIcon {
+    display: flex;
+    justify-content: space-between;
+    height: 10%;
+    width: 100%;
+}
+
+.spacer {
+    width: 10%;
+    height: 100%;
+}
+
+.testimonialsStartQuote {
+    height: 100%;
+    width: 10%;
+    background-image: url('../Images/QuoteStart.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 7vw;
+}
+
+.testimonialsEndQuote {
+    height: 100%;
+    width: 10%;
+    background-image: url('../Images/QuoteEnd.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.testimonialQuote {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 40%;
+    color: white;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: 7vw;
+
+}
+
+.testimonialsTopBottom {
+    color: white;
+    padding-left: 14vw;
+}
+
+h3 {
+    font-size: 50px;
+    line-height: 45px;
+    margin-bottom: 25px;
+}
+
+.testimonialQuote p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25px;
+}
+
+.author {
+    margin-top: 25px;
+    font-size: 15px;
+    font-weight: 300;
+}
