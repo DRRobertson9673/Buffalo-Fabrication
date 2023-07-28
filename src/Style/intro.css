@@ -1,5 +1,6 @@
 #intro {
     z-index: 15;
+    height: calc(100vh - 8vw);
 }
 
 #intro h1 {
