@@ -29,7 +29,7 @@ function Testimonial() {
     <div id="testimonialSection">
 
       <div id="testimonialText">
-        <div className="testimonialsTopBottom"><h1></h1></div>
+        <div className="testimonialsTopBottom"></div>
 
         <div className="quoteIcon">
           <div className="testimonialsStartQuote"></div>
