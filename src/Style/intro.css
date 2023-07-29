@@ -46,7 +46,7 @@ p {
     position: relative;
     top: 0vw;
     transition: all .75s;
-    padding-left: 1.5vw;
+    padding-left: 10%;
     padding-top: 4vw;
     height: 2vw;
     padding-bottom: 3vw;
@@ -59,7 +59,7 @@ p {
     margin-top: 0vw;
     font-weight: 300;
     width: 100%;
-    padding-left: 0vw;
+    padding-left: 0;
     text-align: left;
     transition: opacity 0.75s;
     opacity: 0;
@@ -69,7 +69,7 @@ p {
     position: relative;
     top: 0vw;
     transition: all .75s;
-    padding-left: 1.5vw;
+    padding-left: 10%;
     padding-top: 4vw;
     height: 2vw;
     padding-bottom: 3vw;
@@ -82,7 +82,7 @@ p {
     margin-top: 0vw;
     font-weight: 300;
     width: 100%;
-    padding-left: 0vw;
+    padding-left: 0;
     text-align: left;
     transition: opacity 0.75s;
     opacity: 0;
@@ -92,7 +92,7 @@ p {
     position: relative;
     top: 0vw;
     transition: all .75s;
-    padding-left: 1.5vw;
+    padding-left: 10%;
     padding-top: 4vw;
     height: 2vw;
     padding-bottom: 3vw;
@@ -105,7 +105,7 @@ p {
     margin-top: 0vw;
     font-weight: 300;
     width: 100%;
-    padding-left: 0vw;
+    padding-left: 0;
     text-align: left;
     transition: opacity 0.75s;
     opacity: 0;
@@ -115,7 +115,7 @@ p {
     position: relative;
     top: 0vw;
     transition: all .75s;
-    padding-left: 1.5vw;
+    padding-left: 10%;
     padding-top: 4vw;
     height: 2vw;
     padding-bottom: 3vw;
@@ -128,7 +128,7 @@ p {
     margin-top: 0vw;
     font-weight: 300;
     width: 100%;
-    padding-left: 0vw;
+    padding-left: 0;
     text-align: left;
     transition: opacity 0.75s;
     opacity: 0;
@@ -142,11 +142,11 @@ H2 {
 }
 
 .serviceButton {
-    height: 3vw;
-    width: 16vw;
+    width: 90%;
+    padding-top: 8px;
+    padding-bottom: 8px;
     border: 1px solid white;
-    font-size: 1.7vw;
-    line-height: 2.75VW;
+    font-size: calc(12px + 0.75vw);
     text-align: center;
     margin-top: 2vw;
     cursor: pointer;
@@ -292,4 +292,14 @@ H2 {
         padding-bottom: 9vw;
         color: white;
     }
+
+    h1 {
+        font-size: 2em;
+        width: 86vw;
+    }
+    
+    p {
+        width: 86vw;
+    }
+
 }

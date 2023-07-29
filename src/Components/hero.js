@@ -36,7 +36,7 @@ function Hero() {
     return (
         <div className="video-container">
             <div id="overlay">
-                <div id="callToAction">FROM CONCEPT TO FINISHED PRODUCT<div id="callToActionButton" onClick={gotoContact}>GET A QUOTE</div></div>
+                <div id="callToAction">FROM CONCEPT TO REALITY<div id="callToActionButton" onClick={gotoContact}>GET A QUOTE</div></div>
             </div>
             <video autoPlay muted loop playsInline poster="Images/BuffaloLogo.svg">
                 <source src={video} type="video/mp4" />

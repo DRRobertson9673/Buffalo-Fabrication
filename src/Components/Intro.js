@@ -185,26 +185,6 @@ function Intro() {
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             </div>
 
             <div id="metalFab" className="hidden">

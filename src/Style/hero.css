@@ -32,21 +32,23 @@
     justify-content: center;
     align-items: center;
     color: WHITE;
-    font-size: 4VW;
+    font-size: 4.5vw;
     font-weight: 300;
     top: -1.5VW;
     letter-spacing: 0.33vw;
     display: flex;
     flex-direction: column;
-
+    width: 86vw;
+    padding-left: 7vw;
+    text-align: center;
 }
 
 #callToActionButton {
-    height: 3vw;
-    width: 16vw;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
     border: 1px solid white;
-    font-size: 1.5vw;
-    line-height: 2.75VW;
+    font-size: calc(12px + 0.5vw);
     text-align: center;
     margin-top: 2vw;
     cursor: pointer;
@@ -57,4 +59,14 @@
 #callToActionButton:hover {
     background-color: white;
     color: var(--buffaloBlue);
+}
+
+@media screen and (orientation:portrait) {
+    #callToAction {
+        font-size: 10vw;
+    }
+
+    #callToActionButton {
+        margin-top: 10vw;
+    }
 }
