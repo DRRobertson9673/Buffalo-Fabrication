@@ -19,7 +19,7 @@ function Hero() {
                 })
             }
 
-            if (   (((heroContentOffset * 10) / scrollTop) / heroContentOffset) < 0.1   ) {
+            if ((((heroContentOffset * 10) / scrollTop) / heroContentOffset) < 0.1) {
                 $('#callToAction').css({
                     display: `none`
                 })
@@ -27,10 +27,16 @@ function Hero() {
         }
     }, []);
 
+    function gotoContact() {
+        const vwOffset = 8; // Adjust this value to change the offset in viewport width units (vw)
+        const contactAreaOffset = $("#contactArea").offset().top - vwOffset * $(window).width() / 100;
+        $('html, body').animate({ scrollTop: contactAreaOffset }, 900);
+    }
+
     return (
         <div className="video-container">
             <div id="overlay">
-                <div id="callToAction">FROM CONCEPT TO FINISHED PRODUCT<div id="callToActionButton">Get a quote</div></div>
+                <div id="callToAction">FROM CONCEPT TO FINISHED PRODUCT<div id="callToActionButton" onClick={gotoContact}>GET A QUOTE</div></div>
             </div>
             <video autoPlay muted loop playsInline poster="Images/BuffaloLogo.svg">
                 <source src={video} type="video/mp4" />

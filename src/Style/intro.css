@@ -1,6 +1,6 @@
 #intro {
     z-index: 15;
-    height: calc(100vh - 8vw);
+    min-height: calc(100vh - 8vw);
 }
 
 #intro h1 {
@@ -17,7 +17,7 @@
     font-weight: 300;
     width: 70%;
     padding-left: 7vw;
-    font-size: 1em;
+    font-size: 16px;
 }
 
 #services {
@@ -145,12 +145,12 @@ H2 {
     height: 3vw;
     width: 16vw;
     border: 1px solid white;
-    font-size: 1.8vw;
-    line-height: 2.5VW;
+    font-size: 1.7vw;
+    line-height: 2.75VW;
     text-align: center;
     margin-top: 2vw;
     cursor: pointer;
-    font-weight: 200;
+    font-weight: 300;
     color: white;
     transition: all 0.5s;
     opacity: 0;
@@ -195,7 +195,7 @@ H2 {
 
 #metalFab {
     z-index: 15;
-    height: calc(100vh - 8vw);
+    min-height: calc(100vh - 8vw);
 }
 
 #metalFab h1 {
@@ -235,7 +235,7 @@ H2 {
 
 #design {
     z-index: 15;
-    height: calc(100vh - 8vw);
+    min-height: calc(100vh - 8vw);
 }
 
 #design h1 {
@@ -256,7 +256,7 @@ H2 {
 
 #CNC {
     z-index: 15;
-    height: calc(100vh - 8vw);
+    min-height: calc(100vh - 8vw);
 }
 
 #CNC h1 {
@@ -277,7 +277,7 @@ H2 {
 
 #production {
     z-index: 15;
-    height: calc(100vh - 8vw);
+    min-height: calc(100vh - 8vw);
 }
 
 #production h1 {

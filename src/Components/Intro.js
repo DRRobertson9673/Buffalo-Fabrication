@@ -145,28 +145,28 @@ function Intro() {
                         <div id="card1Title">
                             <h2>METAL FABRICATION</h2>
                             <p>Bunch of text</p>
-                            <div className="serviceButton" onClick={handleMetalFabClick}>More</div>
+                            <div className="serviceButton" onClick={handleMetalFabClick}>MORE</div>
                         </div>
                     </div>
                     <div id="serviceCard2" className="serviceCard" onMouseEnter={handleMouseEnter2} onMouseLeave={handleMouseLeave2}>
                         <div id="card2Title">
                             <h2>DESIGN</h2>
                             <p>Bunch of text</p>
-                            <div className="serviceButton" onClick={handleDesignFabClick}>More</div>
+                            <div className="serviceButton" onClick={handleDesignFabClick}>MORE</div>
                         </div>
                     </div>
                     <div id="serviceCard3" className="serviceCard" onMouseEnter={handleMouseEnter3} onMouseLeave={handleMouseLeave3}>
                         <div id="card3Title">
                             <h2>CNC</h2>
                             <p>Bunch of text</p>
-                            <div className="serviceButton" onClick={handleCNCClick}>More</div>
+                            <div className="serviceButton" onClick={handleCNCClick}>MORE</div>
                         </div>
                     </div>
                     <div id="serviceCard4" className="serviceCard" onMouseEnter={handleMouseEnter4} onMouseLeave={handleMouseLeave4}>
                         <div id="card4Title">
                             <h2>PRODUCTION</h2>
                             <p>Bunch of text</p>
-                            <div className="serviceButton" onClick={handleProductionClick}>More</div>
+                            <div className="serviceButton" onClick={handleProductionClick}>MORE</div>
                         </div>
                     </div>
                 </div>
