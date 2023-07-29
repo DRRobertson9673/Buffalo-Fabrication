@@ -107,21 +107,33 @@ function Intro() {
     function handleMetalFabClick() {
         $('#intro').addClass("hidden");
         $('#metalFab').removeClass("hidden");
+        const vwOffset = 8;
+        const contactAreaOffset = $("#metalFab").offset().top - vwOffset * $(window).width() / 100;
+        $('html, body').animate({ scrollTop: contactAreaOffset }, 900);
     }
 
     function handleDesignFabClick() {
         $('#intro').addClass("hidden");
         $('#design').removeClass("hidden");
+        const vwOffset = 8;
+        const contactAreaOffset = $("#design").offset().top - vwOffset * $(window).width() / 100;
+        $('html, body').animate({ scrollTop: contactAreaOffset }, 900);
     }
 
     function handleCNCClick() {
         $('#intro').addClass("hidden");
         $('#CNC').removeClass("hidden");
+        const vwOffset = 8;
+        const contactAreaOffset = $("#CNC").offset().top - vwOffset * $(window).width() / 100;
+        $('html, body').animate({ scrollTop: contactAreaOffset }, 900);
     }
 
     function handleProductionClick() {
         $('#intro').addClass("hidden");
         $('#production').removeClass("hidden");
+        const vwOffset = 8;
+        const contactAreaOffset = $("#production").offset().top - vwOffset * $(window).width() / 100;
+        $('html, body').animate({ scrollTop: contactAreaOffset }, 900);
     }
 
     function handleBackClick() {
@@ -130,6 +142,9 @@ function Intro() {
         $('#design').addClass("hidden");
         $('#CNC').addClass("hidden");
         $('#production').addClass("hidden");
+        const vwOffset = 8;
+        const contactAreaOffset = $("#intro").offset().top - vwOffset * $(window).width() / 100;
+        $('html, body').animate({ scrollTop: contactAreaOffset }, 900);
     }
 
     return (
