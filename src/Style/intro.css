@@ -3,7 +3,7 @@
     min-height: calc(100vh - 8vw);
 }
 
-#intro h1 {
+h1 {
     padding-top: 6vh;
     color: var(--buffaloBlue);
     font-size: 2em;
@@ -12,7 +12,7 @@
     padding-left: 7vw;
 }
 
-#intro p {
+p {
     margin-top: 1vh;
     font-weight: 300;
     width: 70%;
@@ -196,21 +196,8 @@ H2 {
 #metalFab {
     z-index: 15;
     min-height: calc(100vh - 8vw);
-}
-
-#metalFab h1 {
-    padding-top: 6vh;
-    color: var(--buffaloBlue);
-    font-size: 2em;
-    font-weight: 800;
-    width: 60%;
-
-}
-
-#metalFab {
     font-weight: 300;
     width: 70%;
-    padding-left: 7vw;
     font-size: 1em;
 }
 
@@ -223,6 +210,7 @@ H2 {
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 1vw;
+    margin-left: 7vw;
     border: 1px solid var(--buffaloBlue);
     background-color: rgb(0, 0, 0, 0);
     transition: all 0.25s;
@@ -236,62 +224,72 @@ H2 {
 #design {
     z-index: 15;
     min-height: calc(100vh - 8vw);
-}
-
-#design h1 {
-    padding-top: 6vh;
-    color: var(--buffaloBlue);
-    font-size: 2em;
-    font-weight: 800;
-    width: 60%;
-
-}
-
-#design {
     font-weight: 300;
     width: 70%;
-    padding-left: 7vw;
     font-size: 1em;
 }
 
 #CNC {
     z-index: 15;
     min-height: calc(100vh - 8vw);
-}
-
-#CNC h1 {
-    padding-top: 6vh;
-    color: var(--buffaloBlue);
-    font-size: 2em;
-    font-weight: 800;
-    width: 60%;
-
-}
-
-#CNC {
     font-weight: 300;
     width: 70%;
-    padding-left: 7vw;
     font-size: 1em;
 }
 
 #production {
     z-index: 15;
     min-height: calc(100vh - 8vw);
-}
-
-#production h1 {
-    padding-top: 6vh;
-    color: var(--buffaloBlue);
-    font-size: 2em;
-    font-weight: 800;
-    width: 60%;
-
-}
-
-#production {
     font-weight: 300;
     width: 70%;
-    padding-left: 7vw;
     font-size: 1em;
+}
+
+@media screen and (orientation:portrait) {
+    #intro {
+        min-height: 1px;
+    }
+
+    #services {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-row-gap: 2vw;
+    }
+
+    .serviceCard {
+        height: 50vw;
+        border-radius: 1.5vw;
+    }
+
+    H2 {
+        font-size: 8vw;
+    }
+
+    #card1Title {
+        padding-left: 4vw;
+        height: 2vw;
+        padding-bottom: 9vw;
+        color: white;
+    }
+
+    #card2Title {
+        padding-left: 4vw;
+        height: 2vw;
+        padding-bottom: 9vw;
+        color: white;
+    }
+
+    #card3Title {
+        padding-left: 4vw;
+        height: 2vw;
+        padding-bottom: 9vw;
+        color: white;
+    }
+
+    #card4Title {
+        padding-left: 4vw;
+        height: 2vw;
+        padding-bottom: 9vw;
+        color: white;
+    }
 }

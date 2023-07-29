@@ -1,6 +1,5 @@
 #testimonialSection {
     height: calc(100vh - 8vw);
-    background-color: blue;
     display: flex;
     background-image: url('../Images/TestimonialBackground.jpg');
     background-position: center;
@@ -80,7 +79,6 @@
     align-content: center;
     align-items: center;
     margin-left: 7vw;
-
 }
 
 .testimonialsTopBottom {
@@ -104,4 +102,22 @@ h3 {
     margin-top: 25px;
     font-size: 15px;
     font-weight: 300;
+}
+
+@media screen and (orientation:portrait) {
+    #testimonialLogo {
+        display: none;
+    }
+
+    .testimonialsTopBottom {
+padding-left: 0px;
+    }
+
+    .testimonialsEndQuote {
+        margin-right: 7vw;
+    }
+
+    .testimonialQuote {
+        margin-right: 7vw;
+    }
 }
