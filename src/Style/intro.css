@@ -311,4 +311,21 @@ H2 {
         width: 86vw;
     }
 
+    #card1Title p {
+        font-size: calc(16px + 0.4vw);
+    }
+
+    #card2Title p {
+        font-size: calc(16px + 0.4vw);
+    }
+
+    #card3Title p {
+        font-size: calc(16px + 0.4vw);
+    }
+    
+    #card4Title p {
+        font-size: calc(16px + 0.4vw);
+    }
+
+
 }

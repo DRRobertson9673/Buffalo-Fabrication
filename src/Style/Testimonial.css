@@ -93,9 +93,9 @@ h3 {
 }
 
 .testimonialQuote p {
-    font-size: 20px;
+    font-size: calc(14px + 0.75vw);
     font-weight: 300;
-    line-height: 25px;
+    line-height: calc(14px + 1vw);
 }
 
 .author {
