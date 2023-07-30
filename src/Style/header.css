@@ -74,3 +74,9 @@ nav {
 .nav-link:hover {
     color: var(--buffaloBlue);
 }
+
+@media screen and (orientation:portrait) {
+    nav {
+        display: none;
+    }
+}

@@ -4,6 +4,7 @@ import Hero from './Components/hero';
 import Intro from './Components/Intro';
 import Testimonial from './Components/Testimonial';
 import Contact from './Components/contact';
+import HamburgerMenu from './Components/HamburgerMenu';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Intro />
       <Testimonial />
       <Contact />
+      <HamburgerMenu />
     </div>
   );
 }

@@ -4,7 +4,7 @@
 }
 
 h1 {
-    padding-top: 6vh;
+    padding-top: 8vh;
     color: var(--buffaloBlue);
     font-size: 2em;
     font-weight: 800;
@@ -17,7 +17,7 @@ p {
     font-weight: 300;
     width: 70%;
     padding-left: 7vw;
-    font-size: 16px;
+    font-size: calc(14px + 0.3vw);
 }
 
 #services {
@@ -57,10 +57,12 @@ p {
 #card1Title p {
     color: white;
     margin-top: 0vw;
+    margin-bottom: 0.25vw;
     font-weight: 300;
-    width: 100%;
+    width: 90%;
     padding-left: 0;
     text-align: left;
+    font-size: calc(10px + 0.4vw);
     transition: opacity 0.75s;
     opacity: 0;
 }
@@ -80,10 +82,12 @@ p {
 #card2Title p {
     color: white;
     margin-top: 0vw;
+    margin-bottom: 0.25vw;
     font-weight: 300;
-    width: 100%;
+    width: 90%;
     padding-left: 0;
     text-align: left;
+    font-size: calc(10px + 0.4vw);
     transition: opacity 0.75s;
     opacity: 0;
 }
@@ -103,10 +107,12 @@ p {
 #card3Title p {
     color: white;
     margin-top: 0vw;
+    margin-bottom: 0.25vw;
     font-weight: 300;
-    width: 100%;
+    width: 90%;
     padding-left: 0;
     text-align: left;
+    font-size: calc(10px + 0.4vw);
     transition: opacity 0.75s;
     opacity: 0;
 }
@@ -126,10 +132,12 @@ p {
 #card4Title p {
     color: white;
     margin-top: 0vw;
+    margin-bottom: 0.25vw;
     font-weight: 300;
-    width: 100%;
+    width: 90%;
     padding-left: 0;
     text-align: left;
+    font-size: calc(10px + 0.4vw);
     transition: opacity 0.75s;
     opacity: 0;
 }
