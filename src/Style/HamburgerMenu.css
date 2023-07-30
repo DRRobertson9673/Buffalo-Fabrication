@@ -23,7 +23,6 @@
 }
 
 .HamburgerIcon {
-    position: fixed;
     z-index: 110;
     width: 7vh;
     height: 7vh;
@@ -40,10 +39,12 @@
 
 .HBOpen {
     background-image: url(../Images/HBOpen.svg);
+    position: sticky;
 }
 
 .HBClose {
     background-image: url(../Images/HBClose.svg);
+    position: fixed;
 }
 
 .HamburgerMenu {

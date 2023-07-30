@@ -85,11 +85,13 @@ const ContactForm = () => {
 
             <div id="contactText" className="pageEnd">
                 <h2>BETTER YET, SEE US IN PERSON!</h2>
-                <p>(Please call before coming to confirm we're there)</p>
+                <p><span className="smallerText">(Please call before coming to confirm we're there)</span></p>
+                <br/>
                 <p>Buffalo Fabrication Ltd,</p>
                 <p>Unit 7 Churchill Yard,</p>
                 <p>Waterlooville,</p>
                 <p>PO7 7RF</p>
+                <br/>
                 <p><b>07470 237587</b></p>
             </div>
 

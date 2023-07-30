@@ -16,7 +16,6 @@
 #contactText h2 {
     text-align: center;
     padding-top: 5vh;
-    padding-bottom: 1vh;
     color: var(--buffaloBlue);
     font-size: 1.5em;
     font-weight: 800;
@@ -26,10 +25,14 @@
 #contactText p {
     text-align: center;
     font-weight: 300;
-    font-size: 1em;
+    font-size: 1.1em;
     margin-left: 0;
     padding-left: 0;
     width: 100%;
+}
+
+.smallerText {
+    font-size: 0.8em;
 }
 
 #contactTitle {
