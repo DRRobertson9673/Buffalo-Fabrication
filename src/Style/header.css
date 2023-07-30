@@ -61,6 +61,11 @@ nav {
     display: flex;
     align-content: center;
     margin-right: 7vw;
+    list-style-type: none;
+}
+
+li {
+    margin-left: 6vw;
 }
 
 .nav-link {

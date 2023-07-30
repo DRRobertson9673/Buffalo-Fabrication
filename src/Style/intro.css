@@ -17,6 +17,7 @@ p {
     font-weight: 300;
     width: 70%;
     padding-left: 7vw;
+    padding-right: 7vw;
     font-size: calc(14px + 0.3vw);
 }
 

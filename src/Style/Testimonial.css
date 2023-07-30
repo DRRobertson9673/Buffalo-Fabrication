@@ -105,12 +105,16 @@ h3 {
 }
 
 @media screen and (orientation:portrait) {
+    #testimonialSection {
+        height: 100vh;
+    }
+
     #testimonialLogo {
         display: none;
     }
 
     .testimonialsTopBottom {
-padding-left: 0px;
+        padding-left: 0px;
     }
 
     .testimonialsEndQuote {

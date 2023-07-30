@@ -23,35 +23,66 @@
 }
 
 .HamburgerIcon {
+    position: fixed;
+    z-index: 110;
     width: 7vh;
     height: 7vh;
-    margin-right: 2vw;
+    right: 2vw;
+    top: 2vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.HamburgerIcon:hover {
+    filter: invert(100%);
 }
 
 .HBOpen {
     background-image: url(../Images/HBOpen.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-
 }
 
-#HamburgerMenu {
+.HBClose {
+    background-image: url(../Images/HBClose.svg);
+}
+
+.HamburgerMenu {
     position: fixed;
-    display: none;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    top: 0;
     z-index: 100;
     width: 100%;
-    background-color: red;
+    background-color: var(--buffaloBlue);
+    color: white;
+    font-size: calc(16px + 0.5vw);
+    font-weight: 300;
     padding-top: 4vh;
     padding-bottom: 4vh;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.menuNoHeight {
+    top: -40vh;
+}
+
+.menuFullHeight {
+    top: 0vh;
 }
 
 .HamburgerItem {
+    text-align: center;
     padding-top: 2vh;
     padding-bottom: 2vh;
+    cursor: pointer;
 }
+
+.HamburgerItem:hover {
+    filter: invert(1);
+}
+
+
 
 .opacityNone {
     opacity: 0;

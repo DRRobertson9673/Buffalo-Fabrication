@@ -14,6 +14,10 @@ window.addEventListener("scroll", function () {
 
 function header() {
 
+    function handleItemClick() {
+        window.open('https://www.instagram.com/buffalo_fabrication/', '_blank');
+    };
+
     function gotoServices() {
         const vwOffset = 8; // Adjust this value to change the offset in viewport width units (vw)
         const contactAreaOffset = $("#intro").offset().top - vwOffset * $(window).width() / 100;
@@ -31,9 +35,9 @@ function header() {
             <div id="headerLogo"></div>
             <div>
                 <ul id="navLinks">
-                    <p className="nav-link" onClick={gotoServices}>SERVICES</p>
-                    <p className="nav-link">GALLERY</p>
-                    <p className="nav-link" onClick={gotoContact}>CONTACT</p>
+                    <li className="nav-link" onClick={gotoServices}>SERVICES</li>
+                    <li className="nav-link" onClick={handleItemClick}>GALLERY</li>
+                    <li className="nav-link" onClick={gotoContact}>CONTACT</li>
                 </ul>
             </div>
         </nav>

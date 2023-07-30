@@ -27,7 +27,7 @@ const ContactForm = () => {
                 <div id="contactText" className="pageEnd">
                     <h2>BETTER YET, SEE US IN PERSON!</h2>
                     <p>(Please call before coming to confirm we're there)</p>
-                    <p>The Sanderson Centre, Gosport, PO12 3UL, United Kingdom</p>
+                    <p>Address</p>
                 </div>
 
             </div>
@@ -86,7 +86,11 @@ const ContactForm = () => {
             <div id="contactText" className="pageEnd">
                 <h2>BETTER YET, SEE US IN PERSON!</h2>
                 <p>(Please call before coming to confirm we're there)</p>
-                <p>The Sanderson Centre, Gosport, PO12 3UL, United Kingdom</p>
+                <p>Buffalo Fabrication Ltd,</p>
+                <p>Unit 7 Churchill Yard,</p>
+                <p>Waterlooville,</p>
+                <p>PO7 7RF</p>
+                <p><b>07470 237587</b></p>
             </div>
 
         </div>
