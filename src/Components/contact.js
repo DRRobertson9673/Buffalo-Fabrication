@@ -33,7 +33,7 @@ const ContactForm = () => {
                     <p>Waterlooville,</p>
                     <p>PO7 7RF</p>
                     <br />
-                    <p><b>07470 237587</b></p>
+                    <p><b>01794 328611</b></p>
                 </div>
 
             </div>
@@ -98,7 +98,7 @@ const ContactForm = () => {
                 <p>Waterlooville,</p>
                 <p>PO7 7RF</p>
                 <br />
-                <p><b>07470 237587</b></p>
+                <p><b>01794 328611</b></p>
             </div>
 
         </div>
